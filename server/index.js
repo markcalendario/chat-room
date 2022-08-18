@@ -7,8 +7,8 @@ const io = require('socket.io')(server, {
   }
 });
 
-const adj = ["Brainy", "Cute", "Beautiful", "Amiable", "Lovely"];
-const noun = ["Fox", "Dog", "Dino", "Cat", "Bat"];
+const adj = ["Brainy", "Cute", "Beautiful", "Amiable", "Lovely", "Pretty", "Adorable"];
+const noun = ["Fox", "Dog", "Dino", "Cat", "Bat", "Bird", "Cow", "Sheep", "Wolf", "Tiger", "Lion"];
 
 io.on('connection', client => {
   client.on("joinRoom", data => {
