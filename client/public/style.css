@@ -1,0 +1,78 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #00b652;
+  text-align: center;
+}
+
+.form-box {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 50px;
+  width: 90%;
+
+}
+
+.form-box>*:not(:first-child) {
+  margin-top: 20px;
+}
+
+.messages {
+  height: 300px;
+  overflow: scroll;
+  text-align: left;
+}
+
+input,
+textarea {
+  border: 0;
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+  height: 40px;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(0, 89, 255);
+  border: 0;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.join-announce {
+  background-color: white;
+  color: #00b652;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+a {
+  color: white;
+}
+
+.footer {
+  padding: 20px;
+  color: white;
+}
