@@ -1,3 +1,5 @@
+## 🚀 Download
+[![portfolio](https://img.shields.io/badge/Source_Code-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/markcalendario/socket.io-guide)
 
 # Socket.io Guide
 
@@ -114,4 +116,3 @@ socket.broadcast.to(socketid).emit('event_here', data.message);
 ## Authors
 
 - [@markcalendario](https://www.github.com/markcalendario)
-
